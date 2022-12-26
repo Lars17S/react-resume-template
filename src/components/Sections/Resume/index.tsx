@@ -21,7 +21,10 @@ const Resume: FC = memo(() => {
           ))}
         </ResumeSection>
         <ResumeSection title="Skills">
-          <p className="pb-8">Here you can show a snapshot of your skills to show off to employers</p>
+          <p className="pb-8">
+            <b>Software</b>: ReactJS, Node.js, Express.js, SQL, Git, Bash - Linux, Shell Scripting, Oracle Cloud,
+            AWS, Jira, Firebase, MongoDB.
+          </p>
           <div className="grid grid-cols-1 gap-6 md:grid-cols-2">
             {skills.map((skillgroup, index) => (
               <SkillGroup key={`${skillgroup.name}-${index}`} skillGroup={skillgroup} />
