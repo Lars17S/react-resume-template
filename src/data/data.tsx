@@ -10,11 +10,11 @@ import {
 import GithubIcon from '../components/Icon/GithubIcon';
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
 import heroImage from '../images/header-background.webp';
-import porfolioImage1 from '../images/portfolio/portfolio-1.jpg';
-import porfolioImage2 from '../images/portfolio/portfolio-2.jpg';
-import porfolioImage3 from '../images/portfolio/portfolio-3.jpg';
-import porfolioImage4 from '../images/portfolio/portfolio-4.jpg';
-import porfolioImage5 from '../images/portfolio/portfolio-5.jpg';
+import porfolioImage1 from '../images/portfolio/poolappservice-portfolio-1.jpg';
+// import porfolioImage2 from '../images/portfolio/portfolio-2.jpg';
+import porfolioImage3 from '../images/portfolio/mapreduce-portfolio-3.jpg';
+import porfolioImage4 from '../images/portfolio/galeneapp-portfolio-4.jpg';
+import porfolioImage5 from '../images/portfolio/dauverre-portfolio-5.jpg';
 import profilepic from '../images/profilepic.jpg';
 import testimonialImage from '../images/testimonial.webp';
 import {
@@ -137,33 +137,38 @@ export const skills: SkillGroup[] = [
  */
 export const portfolioItems: PortfolioItem[] = [
   {
-    title: 'Project title 1',
-    description: 'Give a short description of your project here.',
-    url: 'https://github.com/Lars17S',
+    title: 'Pool AppService Webapp',
+    description: 'Cloud native web application to help customers schedule services for their homes.',
+    skills: ['JavaScript', 'React.js', 'AWS', 'GraphQL'],
+    url: 'https://github.com/Lars17S/pool-appservice-aws',
     image: porfolioImage1,
   },
+  // {
+  //   title: 'Gamer Store Webapp',
+  //   description: 'Online store website about components for PCs and Laptops.',
+  //   skills: ['TypeScript', 'React.js', 'MongoDB', 'Express.js'],
+  //   url: 'https://github.com/Lars17S/Gamer-Store-Webapp',
+  //   image: porfolioImage2,
+  // },
   {
-    title: 'Project title 2',
-    description: 'Give a short description of your project here.',
-    url: 'https://github.com/Lars17S',
-    image: porfolioImage2,
-  },
-  {
-    title: 'Project title 3',
-    description: 'Give a short description of your project here.',
-    url: 'https://github.com/Lars17S',
+    title: 'Search Tool - MapReduce',
+    description: 'CLI App created in C to search words given an input text using MapReduce algorithm.',
+    skills: ['C'],
+    url: 'https://github.com/Lars17S/mapreduce-system',
     image: porfolioImage3,
   },
   {
-    title: 'Project title 4',
-    description: 'Give a short description of your project here.',
-    url: 'https://github.com/Lars17S',
+    title: 'Galene App',
+    description: 'iOS App created to help people with anxiety and depression problems.',
+    skills: ['Swift', 'Xcode', 'Firebase'],
+    url: 'https://github.com/SebasRod23/GaleneApp',
     image: porfolioImage4,
   },
   {
-    title: 'Project title 5',
-    description: 'Give a short description of your project here.',
-    url: 'https://github.com/Lars17S',
+    title: 'DauverreWeb',
+    description: 'Webpage and Web application for A.C. (foster home for elders).',
+    skills: ['TypeScript', 'React.js', 'Firebase'],
+    url: 'https://github.com/KevinTMtz/DauverreWeb',
     image: porfolioImage5,
   },
 ];
@@ -200,7 +205,7 @@ export const experience: TimelineItem[] = [
     content: (
       <p>
         • Designed RESTful backend server enabling automated tests operations in Exadata Databases which reduced
-        time consumed in testing, by using Shell Scripts, Linux cronjobs and NoSQL Buckets in Oracle Cloud.
+        time consumed in testing, by using Shell Scripts, Linux cronjobs and NoSQL Buckets in Oracle Cloud.<br></br>
         • Developed Python modules to run more easily operations such as update SSH keys, scale CPUs, memory,
         and storage, start and reboot multiple Exadata Infrastructures at once, by using the SDK provided in Oracle.
       </p>
@@ -213,7 +218,7 @@ export const experience: TimelineItem[] = [
     content: (
       <p>
         • Automated the extraction and calculation of business metrics from database tables used for big data analysis
-        and weekly reports required in the business intelligence team, by using Apache Hive SQL and Bash scripts.
+        and weekly reports required in the business intelligence team, by using Hive SQL and Bash scripts.<br></br>
         • Assisted in creating presentations and statistical dashboards by using Tableau and Python libraries.
       </p>
     ),
