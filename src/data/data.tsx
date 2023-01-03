@@ -11,7 +11,7 @@ import GithubIcon from '../components/Icon/GithubIcon';
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
 import heroImage from '../images/header-background.webp';
 import porfolioImage1 from '../images/portfolio/poolappservice-portfolio-1.jpg';
-// import porfolioImage2 from '../images/portfolio/portfolio-2.jpg';
+import porfolioImage2 from '../images/portfolio/gamer-store-portfolio-2.jpg';
 import porfolioImage3 from '../images/portfolio/mapreduce-portfolio-3.jpg';
 import porfolioImage4 from '../images/portfolio/galeneapp-portfolio-4.jpg';
 import porfolioImage5 from '../images/portfolio/dauverre-portfolio-5.jpg';
@@ -139,17 +139,17 @@ export const portfolioItems: PortfolioItem[] = [
   {
     title: 'Pool AppService Webapp',
     description: 'Cloud native web application to help customers schedule services for their homes.',
-    skills: ['JavaScript', 'React.js', 'AWS', 'GraphQL'],
+    skills: ['JavaScript', 'React.js', 'AWS Amplify', 'AWS DynamoDB', 'GraphQL'],
     url: 'https://github.com/Lars17S/pool-appservice-aws',
     image: porfolioImage1,
   },
-  // {
-  //   title: 'Gamer Store Webapp',
-  //   description: 'Online store website about components for PCs and Laptops.',
-  //   skills: ['TypeScript', 'React.js', 'MongoDB', 'Express.js'],
-  //   url: 'https://github.com/Lars17S/Gamer-Store-Webapp',
-  //   image: porfolioImage2,
-  // },
+  {
+    title: 'Gamer Store Webapp',
+    description: 'Full-stack website related to selling components for PCs and Laptops.',
+    skills: ['TypeScript', 'React.js', 'MongoDB', 'Express.js'],
+    url: 'https://github.com/Lars17S/Gamer-Store-Webapp',
+    image: porfolioImage2,
+  },
   {
     title: 'Search Tool - MapReduce',
     description: 'CLI App created in C to search words given an input text using MapReduce algorithm.',
